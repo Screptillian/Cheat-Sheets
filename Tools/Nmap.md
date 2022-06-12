@@ -21,17 +21,31 @@
 # Common scripts
 
 ftp-anon
+
 tftp-enum
+
 smb-enum-domains
+
 smb-enum-groups
+
 smb-enum-shares
+
 smb-enum-users
+
 smb-vuln-ms17-010
+
 smb-os-discovery
+
 smb2-capabilities
+
 smb2-security-mode
+
 http-cookie-flags
+
 http-wordpress-enum
+
 http-shellshock
+
 http-server-header
+
 http-wordpress-enum
