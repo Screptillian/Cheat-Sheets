@@ -49,3 +49,13 @@ http-shellshock
 http-server-header
 
 http-wordpress-enum
+
+dns-check-zone
+
+dns-srv-enum
+
+dns-zone-transfer
+
+snmp-info
+
+snmp-processes
