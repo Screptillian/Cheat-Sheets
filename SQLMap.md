@@ -41,3 +41,7 @@
 ```sqlmap -u $url -g site: --level=5 --risk=3 --forms```
 ```sqlmap -u $url -g url: --level=5 --risk=3 --forms```
 ```sqlmap -u $url -g page: --level=5 --risk=3 --forms```
+
+# Interaction(less) sqlmap
+
+ - Append ```--batch``` to any of the previous commands
