@@ -7,6 +7,8 @@
 |```r```|run|
 
 ## GEF
+|Command|Description|
+|---|---|
 |```gef```|Run GEF|
 |```x/i $memoryaddress```|Examine the instruction|
 |```x/dw $memory_address```|Displays the value at the given memory address|
@@ -16,3 +18,4 @@
 |```print```|Can also print mathematical functions e.x ```print $ebp-0x10``` will print the value of the EBP register minus 0x10|
 |```pattern create $length```|Creates pattern of $length bytes|
 |```pattern offset $offset```|Finds pattern in pattern created by ```pattern create```|
+|```p $function```|Prints memory address that a specified function is in|
