@@ -13,5 +13,4 @@ Command Line packet inspecting tool.
 |```-x```|Displays hexdump|
 |```-r```|Uses file as packet input|
 |```-v```|Produces slightly more verbose output (TTL, identification, total length, options)|
-|```-XX```|Displays data from the start of the frame|
-|```-xx```|Displays data from the start of the frame|
+|```-XX```/```-xx```|Displays data from the start of the frame|
