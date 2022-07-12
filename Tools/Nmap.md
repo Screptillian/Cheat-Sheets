@@ -5,6 +5,7 @@
 # Further system enumeration
 
 ```nmap -sV -sC -oG $pathtofile $IP1 $IP2 $IP3 $IP4```
+
 ```sudo nmap -sU -sV -oG $pathtofile $IP1```
 
 ## Common UDP ports:
