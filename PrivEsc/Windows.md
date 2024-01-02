@@ -6,7 +6,6 @@
 |dir /b /a /s c:\ > C:\Users\\\$username\cdirs.txt|Perform dir on each directory and give results into cdirs.txt|
 
 ### Interesting extensions
-## Extensions
 
 ```
 .bak
